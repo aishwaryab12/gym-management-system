@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QMainWindow" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1250</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="buttonCancel">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>530</y>
+        <width>99</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(111, 111, 111);
+background-color: rgb(59, 119, 179);
+font: 14pt &quot;OpenSymbol&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>460</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font:  14pt &quot;Ubuntu&quot;;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1261</width>
+        <height>881</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Untitled Folder 2/ekg-monitor.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>290</y>
+        <width>611</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,55);
+border-color: rgb(44, 89, 134);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>150</y>
+        <width>1121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 72pt &quot;Ubuntu&quot;;
+background-color: rgba(0, 147, 221,0);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;FitnessPro&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="username">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>430</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255,255, 255);
+font:  14pt &quot;Ubuntu&quot;;
+
+</string>
+      </property>
+      <property name="text">
+       <string>User Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditPassword">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>480</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditUsername">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>430</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonCancel_2">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>560</y>
+        <width>99</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(111, 111, 111);
+background-color: rgb(59, 119, 179);
+font: 14pt &quot;OpenSymbol&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="password">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>470</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255,255, 255);
+font:  14pt &quot;Ubuntu&quot;;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Passoword</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonLogin">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>560</y>
+        <width>99</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(111, 111, 111);
+background-color: rgb(59, 119, 179);
+font: 14pt &quot;OpenSymbol&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>350</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+text-decoration: underline;
+font: 16pt &quot;OpenSymbol&quot;;</string>
+      </property>
+      <property name="text">
+       <string>LOGIN</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1251</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>URW Palladio L</family>
+        <pointsize>26</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 106);
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Untitled Folder 2/ekg-monitor.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>301</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>URW Gothic L</family>
+        <pointsize>25</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 106,0);
+font: 63 bold 25pt &quot;URW Gothic L&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#ffffff;&quot;&gt;FitnessPro&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="logout">
+      <property name="geometry">
+       <rect>
+        <x>1140</x>
+        <y>40</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,80);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+border:1.5px solid white
+</string>
+      </property>
+      <property name="text">
+       <string>Logout</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>30</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;Welcome, Admin &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>190</y>
+        <width>1241</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="BatchesPage">
+       <widget class="QTabWidget" name="BatchesWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1251</width>
+          <height>691</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 106);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="AddbatchTab">
+         <attribute name="title">
+          <string>Add Batch</string>
+         </attribute>
+         <widget class="QWidget" name="formLayoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>120</y>
+            <width>281</width>
+            <height>181</height>
+           </rect>
+          </property>
+          <layout class="QFormLayout" name="batchform">
+           <item row="0" column="0">
+            <widget class="QLabel" name="batchIdLabel">
+             <property name="text">
+              <string>Batch Id :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="batchIdLineEdit"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="timeLabel">
+             <property name="text">
+              <string>Time :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="batchtimeLineEdit"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="strengthLabel">
+             <property name="text">
+              <string>Strength :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="batchstrengthLineEdit"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="trainerLabel">
+             <property name="text">
+              <string>Trainer :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="batchtrainerLineEdit"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QPushButton" name="addbatchbutton">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>340</y>
+            <width>101</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold  11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="batch">
+         <attribute name="title">
+          <string>View Batch</string>
+         </attribute>
+         <widget class="QTableWidget" name="batchtable">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>120</y>
+            <width>800</width>
+            <height>350</height>
+           </rect>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>200</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Batch Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Strength</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Time</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Trainer</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QPushButton" name="loadbatchbutton">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>510</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Load</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="CustomerPage">
+       <widget class="QTabWidget" name="CustomerWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1261</width>
+          <height>691</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 106);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <widget class="QWidget" name="AddCustomer">
+         <attribute name="title">
+          <string>Add Customer</string>
+         </attribute>
+         <widget class="QPushButton" name="submitCustomerButton">
+          <property name="geometry">
+           <rect>
+            <x>840</x>
+            <y>520</y>
+            <width>110</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Submit</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="gymInfoBox">
+          <property name="geometry">
+           <rect>
+            <x>610</x>
+            <y>60</y>
+            <width>441</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Gym information</string>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <widget class="QWidget" name="formLayoutWidget_4">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>30</y>
+             <width>371</width>
+             <height>391</height>
+            </rect>
+           </property>
+           <layout class="QFormLayout" name="formLayout_3">
+            <property name="fieldGrowthPolicy">
+             <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+            </property>
+            <item row="0" column="0">
+             <widget class="QLabel" name="lastNameLabel_3">
+              <property name="text">
+               <string>Subscription :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="lastNameLineEdit_3"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="firstNameLabel_3">
+              <property name="text">
+               <string>Start Date :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="firstNameLineEdit_3"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="genderLabel_3">
+              <property name="text">
+               <string>End date : </string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="genderLineEdit_3"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="emailLabel_3">
+              <property name="text">
+               <string>Amount :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="emailLineEdit_3"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="dateOfBirthLabel_3">
+              <property name="text">
+               <string>Amount Status :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="dateOfBirthLineEdit_3"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="occupationLabel_2">
+              <property name="text">
+               <string>Pending Amount :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLineEdit" name="occupationLineEdit_2"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="contactNumberLabel_3">
+              <property name="text">
+               <string>Personal Trainer :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLineEdit" name="contactNumberLineEdit_3"/>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="customerIDLabel">
+              <property name="text">
+               <string>Customer ID :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLineEdit" name="customerIDLineEdit"/>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="customerIDLabel_4">
+              <property name="text">
+               <string>Batch ID :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLineEdit" name="customerIDLineEdit_4"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="personalInfoBox">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>60</y>
+            <width>481</width>
+            <height>421</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Personal information</string>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <widget class="QWidget" name="formLayoutWidget_5">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>30</y>
+             <width>401</width>
+             <height>371</height>
+            </rect>
+           </property>
+           <layout class="QFormLayout" name="formLayout_4">
+            <property name="fieldGrowthPolicy">
+             <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+            </property>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="lastNameLineEdit_4"/>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="firstNameLineEdit_4"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="genderLabel_4">
+              <property name="text">
+               <string>Gender :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="genderLineEdit_4"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="emailLabel_4">
+              <property name="text">
+               <string>Email :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="emailLineEdit_4"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="dateOfBirthLabel_4">
+              <property name="text">
+               <string>Date of Birth :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLineEdit" name="dateOfBirthLineEdit_4"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="occupationLabel">
+              <property name="text">
+               <string>Occupation</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLineEdit" name="occupationLineEdit"/>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="contactNumberLabel_4">
+              <property name="text">
+               <string>Contact Number :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLineEdit" name="contactNumberLineEdit_4"/>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="addressLabel_3">
+              <property name="text">
+               <string>Address</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLineEdit" name="addressLineEdit_3"/>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="heightInCmLabel">
+              <property name="text">
+               <string>Height(in cm) :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QLineEdit" name="heightInCmLineEdit"/>
+            </item>
+            <item row="10" column="0">
+             <widget class="QLabel" name="weightInKgLabel">
+              <property name="text">
+               <string>Weight (in kg)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1">
+             <widget class="QLineEdit" name="weightInKgLineEdit"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="firstNameLabel_4">
+              <property name="text">
+               <string>First name :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="lastNameLabel_4">
+              <property name="text">
+               <string>Last Name :</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="resetButton">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>520</y>
+            <width>110</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Reset</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="ViewCustomer">
+         <attribute name="title">
+          <string>View Customer</string>
+         </attribute>
+         <widget class="QPushButton" name="loadButton_cust">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>530</y>
+            <width>110</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Load</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>80</y>
+            <width>871</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="rowCount">
+           <number>10</number>
+          </property>
+          <property name="columnCount">
+           <number>7</number>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>120</number>
+          </attribute>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <column>
+           <property name="text">
+            <string>Cutomer Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Subscription</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Start Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>End Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Amount</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Amount Status</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pending Amount</string>
+           </property>
+          </column>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Generate Custmer Bill</string>
+         </attribute>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>50</y>
+            <width>151</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select Customer Id</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>120</y>
+            <width>91</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>First Name</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>170</y>
+            <width>81</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Last Name</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>120</y>
+            <width>113</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>170</y>
+            <width>113</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="loadButton_cust_2">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>540</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Generate Bill</string>
+          </property>
+         </widget>
+         <widget class="QPlainTextEdit" name="plainTextEdit_4">
+          <property name="geometry">
+           <rect>
+            <x>620</x>
+            <y>50</y>
+            <width>481</width>
+            <height>451</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="receiptButton">
+          <property name="geometry">
+           <rect>
+            <x>810</x>
+            <y>540</y>
+            <width>99</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Print Receipt</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>50</y>
+            <width>113</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="EmpDetailsPage">
+       <widget class="QTabWidget" name="EmpDetailsWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1291</width>
+          <height>691</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 106);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="AddEmpTab">
+         <attribute name="title">
+          <string>Add Employee</string>
+         </attribute>
+         <widget class="QWidget" name="formLayoutWidget_14">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>110</y>
+            <width>391</width>
+            <height>317</height>
+           </rect>
+          </property>
+          <layout class="QFormLayout" name="formLayout_14">
+           <property name="fieldGrowthPolicy">
+            <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="firstNameLabel_13">
+             <property name="text">
+              <string>First name :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lastNameLineEdit_13"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="lastNameLabel_13">
+             <property name="text">
+              <string>Last Name :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="firstNameLineEdit_13"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="genderLabel_11">
+             <property name="text">
+              <string>Gender :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="genderLineEdit_11"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="emailLabel_11">
+             <property name="text">
+              <string>Email :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="emailLineEdit_11"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="dateOfBirthLabel_11">
+             <property name="text">
+              <string>Date of Birth :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="dateOfBirthLineEdit_11"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="contactNumberLabel_11">
+             <property name="text">
+              <string>Contact Number :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLineEdit" name="contactNumberLineEdit_11"/>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="addressLabel_10">
+             <property name="text">
+              <string>Address</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLineEdit" name="addressLineEdit_10"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="newlabel_9">
+             <property name="text">
+              <string>Experience: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="newlineedit_9"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>70</y>
+            <width>171</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 bold 12pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Personal Information :</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="submitEmployeeButton">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>460</y>
+            <width>99</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Submit</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="ViewEmpTab">
+         <attribute name="title">
+          <string>View Employee</string>
+         </attribute>
+         <widget class="QTableWidget" name="tableWidget_4">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>90</y>
+            <width>821</width>
+            <height>271</height>
+           </rect>
+          </property>
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>First Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Last Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Gender</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Email</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Date of Birth</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Contact</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Address</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Experience</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QPushButton" name="submitEmployeeButton_2">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>410</y>
+            <width>99</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Load</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="EqipDetailsPage">
+       <widget class="QTabWidget" name="EqipDetailsWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1251</width>
+          <height>701</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 106);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="AddEquipmenttab">
+         <attribute name="title">
+          <string>Add Equipments</string>
+         </attribute>
+         <widget class="QWidget" name="formLayoutWidget_7">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>140</y>
+            <width>391</width>
+            <height>151</height>
+           </rect>
+          </property>
+          <layout class="QFormLayout" name="formLayout_6">
+           <property name="fieldGrowthPolicy">
+            <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="equipmentNameLabel">
+             <property name="text">
+              <string>Equipment Name :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="dateOfPurchaseLabel">
+             <property name="text">
+              <string>Date Of Purchase</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="dateOfPurchaseLineEdit"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="costLabel">
+             <property name="text">
+              <string>Cost :</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="costLineEdit"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="quantityLabel">
+             <property name="text">
+              <string>Quantity</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="quantityLineEdit"/>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="equipmentNameLineEdit"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QPushButton" name="submitButton_5">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>320</y>
+            <width>110</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Submit</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="ViewEquipmenttab">
+         <attribute name="title">
+          <string>View Equipments</string>
+         </attribute>
+         <widget class="QPushButton" name="load_dataButton">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>450</y>
+            <width>110</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Load</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tableWidget_2">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>100</y>
+            <width>600</width>
+            <height>311</height>
+           </rect>
+          </property>
+          <property name="rowCount">
+           <number>10</number>
+          </property>
+          <property name="columnCount">
+           <number>4</number>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>138</number>
+          </attribute>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <column>
+           <property name="text">
+            <string>Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Date Of Purchase</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cost</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Quantity</string>
+           </property>
+          </column>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProgressPage">
+       <widget class="QTabWidget" name="ProgressWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1261</width>
+          <height>671</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 106);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="AddProgresstab">
+         <attribute name="title">
+          <string>Add Progress</string>
+         </attribute>
+         <widget class="QWidget" name="formLayoutWidget_8">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>180</y>
+            <width>351</width>
+            <height>241</height>
+           </rect>
+          </property>
+          <layout class="QFormLayout" name="formLayout_7">
+           <item row="0" column="0">
+            <widget class="QLabel" name="firstNameLabel_6">
+             <property name="text">
+              <string>First Name </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="firstNameLineEdit_6"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="lastNameLabel_6">
+             <property name="text">
+              <string>Last Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lastNameLineEdit_6"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="customerIDLabel_2">
+             <property name="text">
+              <string>Customer ID</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="customerIDLineEdit_2"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="joiningDateLabel">
+             <property name="text">
+              <string>Joining Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="joiningDateLineEdit"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="progressEntryDateLabel">
+             <property name="text">
+              <string>Progress Entry Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="progressEntryDateLineEdit"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="heightLabel">
+             <property name="text">
+              <string>Height</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="heightLineEdit"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="weightLabel">
+             <property name="text">
+              <string>Weight</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLineEdit" name="weightLineEdit"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QPushButton" name="load_dataButton_2">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>460</y>
+            <width>110</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Load</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="load_dataButton_3">
+          <property name="geometry">
+           <rect>
+            <x>600</x>
+            <y>460</y>
+            <width>110</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="Trackprogrsstab">
+         <attribute name="title">
+          <string>Track Progress</string>
+         </attribute>
+         <widget class="QWidget" name="formLayoutWidget_9">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>170</y>
+            <width>271</width>
+            <height>131</height>
+           </rect>
+          </property>
+          <layout class="QFormLayout" name="formLayout_8">
+           <item row="0" column="0">
+            <widget class="QLabel" name="firstNameLabel_7">
+             <property name="text">
+              <string>First Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="firstNameLineEdit_7"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="lastNameLabel_7">
+             <property name="text">
+              <string>Last Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lastNameLineEdit_7"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="customerIDLabel_3">
+             <property name="text">
+              <string>Customer ID</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="customerIDLineEdit_3"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QPushButton" name="load_dataButton_4">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>350</y>
+            <width>161</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Load Customer ID</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="load_dataButton_5">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>480</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Generate BMI Report</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="load_dataButton_6">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>480</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Genereate Weight Report</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="load_dataButton_7">
+          <property name="geometry">
+           <rect>
+            <x>750</x>
+            <y>480</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Generate Height report</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="ViewAllProgresstab">
+         <attribute name="title">
+          <string>View All Progress</string>
+         </attribute>
+         <widget class="QTableWidget" name="tableWidget_3">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>120</y>
+            <width>800</width>
+            <height>300</height>
+           </rect>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>160</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>New Column</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Customer ID</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Weight</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>BMI</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QPushButton" name="load_dataButton_8">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>430</y>
+            <width>110</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Load</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ReportsPage">
+       <widget class="QTabWidget" name="ReportsWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1231</width>
+          <height>671</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 106);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="Membertab">
+         <attribute name="title">
+          <string>Member Analysis</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>390</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Show Graph</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>90</y>
+            <width>371</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 bold 22pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Member Analysis Report</string>
+          </property>
+         </widget>
+         <widget class="QPlainTextEdit" name="plainTextEdit">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>220</y>
+            <width>691</width>
+            <height>101</height>
+           </rect>
+          </property>
+          <property name="plainText">
+           <string>FitneessPro is unisex gym.Member analysis report displays the stattistical data of how many male and female customers are there in gym  </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="MonthWisetab">
+         <attribute name="title">
+          <string>Monthwise Report</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>390</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Show Graph</string>
+          </property>
+         </widget>
+         <widget class="QPlainTextEdit" name="plainTextEdit_2">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>220</y>
+            <width>701</width>
+            <height>131</height>
+           </rect>
+          </property>
+          <property name="plainText">
+           <string>Everymonth number of customers join FitnessPro.This report displays the statistical data of how  customers join gym in each month.
+
+This record also helps to keep track of the business i.e. whether more marketing is needed or are there some improvements to be done, if the enrollments are decreasing.We can also use it to track whether a newly added service is able to attract more customers,etc.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>90</y>
+            <width>381</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 bold 22pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Monthwise Analysis Report</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="BMItab">
+         <attribute name="title">
+          <string>BMI Analysis</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_10">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>390</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(0,0,106);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Show Graph</string>
+          </property>
+         </widget>
+         <widget class="QPlainTextEdit" name="plainTextEdit_3">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>220</y>
+            <width>691</width>
+            <height>101</height>
+           </rect>
+          </property>
+          <property name="plainText">
+           <string>FitnessPro mainly focuses on maintaining BMI of each and every customer.BMI is nothing but Body Mass Index which is calculated on the basis of formula (Weight x 10000 )/ Height^2.This report categorize customers according to Low BMI,Average BMI and High BMI.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>90</y>
+            <width>371</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 bold 22pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>BMI Analysis Report</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>1140</x>
+        <y>150</y>
+        <width>99</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,80);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+border:1.5px solid white
+</string>
+      </property>
+      <property name="text">
+       <string>Reports</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>150</y>
+        <width>141</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,80);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+border:1.5px solid white
+</string>
+      </property>
+      <property name="text">
+       <string>Equipment Details</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>150</y>
+        <width>99</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,80);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+border:1.5px solid white
+</string>
+      </property>
+      <property name="text">
+       <string>Progress</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>150</y>
+        <width>99</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,80);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+border:1.5px solid white
+</string>
+      </property>
+      <property name="text">
+       <string>Batches</string>
+      </property>
+      <property name="icon">
+       <iconset theme="note">
+        <normaloff>Untitled Folder 2</normaloff>Untitled Folder 2</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>150</y>
+        <width>99</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,80);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+border:1.5px solid white
+</string>
+      </property>
+      <property name="text">
+       <string>Customer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>150</y>
+        <width>141</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255,255,255,80);
+color: rgb(255,255,255);
+font: 75 bold 11pt &quot;Ubuntu&quot;;
+border:1.5px solid white
+</string>
+      </property>
+      <property name="text">
+       <string>Employee Details</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
